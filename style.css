@@ -1,0 +1,57 @@
+header {color: rgb(6, 6, 5); background-color: rgb(113, 160, 81);}
+h1 {text-align: center; font-size: 50px;}
+header {text-align: center;}
+h4 {word-spacing: 50px;}
+h2 {text-align: center; color: rgb(125, 151, 21); font-style:italic; font-size:30px;}
+
+
+button { 
+    background-color: rgb(247, 226, 239);
+  }
+  
+  button:hover {
+    background-color: rgb(236, 26, 173);
+  }
+  button:focus {
+    background-color: rgb(195, 149, 233);
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+/* Text positions */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: -100px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: -100px;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
